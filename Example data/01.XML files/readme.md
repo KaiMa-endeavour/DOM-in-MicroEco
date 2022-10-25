@@ -1,1 +1,1 @@
-XML files is available at https://data.ess-dive.lbl.gov/data.
+XML files was available at https://data.ess-dive.lbl.gov/data.
