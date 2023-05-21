@@ -1,0 +1,25 @@
+Input parameters: 
+{
+    "input_files": [
+        ".\\02.CSV_files\\*.csv"
+    ],
+    "output_dir": ".\\03.output_files\\",
+    "table_fomat": "Fl_adv",
+    "adduct_json": null,
+    "table_headers": null,
+    "sample_names": null,
+    "mass_range": [
+        200,
+        800
+    ],
+    "OC_range": [
+        0,
+        1.2
+    ],
+    "HC_range": [
+        0,
+        2.4
+    ],
+    "trans_db": "D:/PythonProject/FtmsAnalysis/data/Transformation_List.csv",
+    "error_term": 1e-05
+}
