@@ -1,0 +1,120 @@
+2023-06-21 20:56:11  ----  Read file: .\02.CSV_files\Altamaha_PP48_000107-2_p08CShOut.csv 
+2023-06-21 20:56:11  ----  0 molecules containing C13 were deleted, retains 5702 molecules. 
+2023-06-21 20:56:11  ----  1803 duplicated molecules were removed, retains 3899 molecules. 
+2023-06-21 20:56:11  ----  0 CH compounds were removed, retains 3899 molecules. 
+2023-06-21 20:56:11  ----  742 chemically may non-existent molecules are removed, retains 3157 molecules. 
+2023-06-21 20:56:11  ----  15 molecules are filtered by custom conditions, retains 3142 molecules. 
+2023-06-21 20:56:12  ----  Outline taxonomy: 0 molecules are not grouped. 
+2023-06-21 20:56:12  ----  Specifics taxonomy: 1 molecules are not grouped. 
+2023-06-21 20:56:12  ----  MSCC taxonomy: 3085 molecules are not grouped. 
+2023-06-21 20:56:12  ----  CRAM taxonomy: 1717 molecules are grouped. 
+2023-06-21 20:56:12  ----  IOS taxonomy: 211 molecules are grouped. 
+2023-06-21 20:56:12  ----  1921 CHO compounds. 
+2023-06-21 20:56:12  ----  877 CHON compounds. 
+2023-06-21 20:56:12  ----  26 CHONS compounds. 
+2023-06-21 20:56:12  ----  318 CHOS compounds. 
+2023-06-21 20:56:12  ----  Altamaha_PP48_000107-2_p08 contains 3142 molecules. 
+2023-06-21 20:56:12  ----  1 "Not Matched" molecules were removed. 
+2023-06-21 20:56:22  ----  1255 molecular transformation pathways were captured. 
+2023-06-21 20:56:22  ----  The analysis was completed: .\02.CSV_files\Altamaha_PP48_000107-2_p08CShOut.csv.
+ 
+2023-06-21 20:56:22  ----  Read file: .\02.CSV_files\Altamaha_PP48_000107-3_p08CShOut.csv 
+2023-06-21 20:56:22  ----  0 molecules containing C13 were deleted, retains 5723 molecules. 
+2023-06-21 20:56:22  ----  1799 duplicated molecules were removed, retains 3924 molecules. 
+2023-06-21 20:56:22  ----  0 CH compounds were removed, retains 3924 molecules. 
+2023-06-21 20:56:22  ----  730 chemically may non-existent molecules are removed, retains 3194 molecules. 
+2023-06-21 20:56:22  ----  14 molecules are filtered by custom conditions, retains 3180 molecules. 
+2023-06-21 20:56:23  ----  Outline taxonomy: 0 molecules are not grouped. 
+2023-06-21 20:56:23  ----  Specifics taxonomy: 1 molecules are not grouped. 
+2023-06-21 20:56:23  ----  MSCC taxonomy: 3089 molecules are not grouped. 
+2023-06-21 20:56:23  ----  CRAM taxonomy: 1773 molecules are grouped. 
+2023-06-21 20:56:23  ----  IOS taxonomy: 225 molecules are grouped. 
+2023-06-21 20:56:23  ----  1776 CHO compounds. 
+2023-06-21 20:56:23  ----  1008 CHON compounds. 
+2023-06-21 20:56:23  ----  38 CHONS compounds. 
+2023-06-21 20:56:23  ----  358 CHOS compounds. 
+2023-06-21 20:56:23  ----  Altamaha_PP48_000107-3_p08 contains 3180 molecules. 
+2023-06-21 20:56:23  ----  1 "Not Matched" molecules were removed. 
+2023-06-21 20:56:33  ----  1255 molecular transformation pathways were captured. 
+2023-06-21 20:56:33  ----  The analysis was completed: .\02.CSV_files\Altamaha_PP48_000107-3_p08CShOut.csv.
+ 
+2023-06-21 20:56:33  ----  Read file: .\02.CSV_files\Altamaha_PP48_000107-4_p08CShOut.csv 
+2023-06-21 20:56:34  ----  0 molecules containing C13 were deleted, retains 5824 molecules. 
+2023-06-21 20:56:34  ----  1806 duplicated molecules were removed, retains 4018 molecules. 
+2023-06-21 20:56:34  ----  0 CH compounds were removed, retains 4018 molecules. 
+2023-06-21 20:56:34  ----  738 chemically may non-existent molecules are removed, retains 3280 molecules. 
+2023-06-21 20:56:34  ----  12 molecules are filtered by custom conditions, retains 3268 molecules. 
+2023-06-21 20:56:34  ----  Outline taxonomy: 0 molecules are not grouped. 
+2023-06-21 20:56:34  ----  Specifics taxonomy: 1 molecules are not grouped. 
+2023-06-21 20:56:34  ----  MSCC taxonomy: 3194 molecules are not grouped. 
+2023-06-21 20:56:34  ----  CRAM taxonomy: 1819 molecules are grouped. 
+2023-06-21 20:56:34  ----  IOS taxonomy: 222 molecules are grouped. 
+2023-06-21 20:56:35  ----  1917 CHO compounds. 
+2023-06-21 20:56:35  ----  932 CHON compounds. 
+2023-06-21 20:56:35  ----  31 CHONS compounds. 
+2023-06-21 20:56:35  ----  388 CHOS compounds. 
+2023-06-21 20:56:35  ----  Altamaha_PP48_000107-4_p08 contains 3268 molecules. 
+2023-06-21 20:56:35  ----  1 "Not Matched" molecules were removed. 
+2023-06-21 20:56:45  ----  1255 molecular transformation pathways were captured. 
+2023-06-21 20:56:45  ----  The analysis was completed: .\02.CSV_files\Altamaha_PP48_000107-4_p08CShOut.csv.
+ 
+2023-06-21 20:56:45  ----  Read file: .\02.CSV_files\Altamaha_SW48_000107-2_p08CShOut.csv 
+2023-06-21 20:56:45  ----  0 molecules containing C13 were deleted, retains 5363 molecules. 
+2023-06-21 20:56:45  ----  1736 duplicated molecules were removed, retains 3627 molecules. 
+2023-06-21 20:56:45  ----  0 CH compounds were removed, retains 3627 molecules. 
+2023-06-21 20:56:45  ----  693 chemically may non-existent molecules are removed, retains 2934 molecules. 
+2023-06-21 20:56:45  ----  9 molecules are filtered by custom conditions, retains 2925 molecules. 
+2023-06-21 20:56:46  ----  Outline taxonomy: 0 molecules are not grouped. 
+2023-06-21 20:56:46  ----  Specifics taxonomy: 2 molecules are not grouped. 
+2023-06-21 20:56:46  ----  MSCC taxonomy: 2883 molecules are not grouped. 
+2023-06-21 20:56:46  ----  CRAM taxonomy: 1608 molecules are grouped. 
+2023-06-21 20:56:46  ----  IOS taxonomy: 204 molecules are grouped. 
+2023-06-21 20:56:46  ----  1804 CHO compounds. 
+2023-06-21 20:56:46  ----  796 CHON compounds. 
+2023-06-21 20:56:46  ----  34 CHONS compounds. 
+2023-06-21 20:56:46  ----  291 CHOS compounds. 
+2023-06-21 20:56:46  ----  Altamaha_SW48_000107-2_p08 contains 2925 molecules. 
+2023-06-21 20:56:46  ----  2 "Not Matched" molecules were removed. 
+2023-06-21 20:56:54  ----  1255 molecular transformation pathways were captured. 
+2023-06-21 20:56:55  ----  The analysis was completed: .\02.CSV_files\Altamaha_SW48_000107-2_p08CShOut.csv.
+ 
+2023-06-21 20:56:55  ----  Read file: .\02.CSV_files\Altamaha_SW48_000107-3_p08CShOut.csv 
+2023-06-21 20:56:55  ----  0 molecules containing C13 were deleted, retains 5377 molecules. 
+2023-06-21 20:56:55  ----  1869 duplicated molecules were removed, retains 3508 molecules. 
+2023-06-21 20:56:55  ----  0 CH compounds were removed, retains 3508 molecules. 
+2023-06-21 20:56:55  ----  677 chemically may non-existent molecules are removed, retains 2831 molecules. 
+2023-06-21 20:56:55  ----  14 molecules are filtered by custom conditions, retains 2817 molecules. 
+2023-06-21 20:56:55  ----  Outline taxonomy: 0 molecules are not grouped. 
+2023-06-21 20:56:55  ----  Specifics taxonomy: 3 molecules are not grouped. 
+2023-06-21 20:56:55  ----  MSCC taxonomy: 2776 molecules are not grouped. 
+2023-06-21 20:56:55  ----  CRAM taxonomy: 1546 molecules are grouped. 
+2023-06-21 20:56:55  ----  IOS taxonomy: 201 molecules are grouped. 
+2023-06-21 20:56:55  ----  1744 CHO compounds. 
+2023-06-21 20:56:55  ----  766 CHON compounds. 
+2023-06-21 20:56:55  ----  16 CHONS compounds. 
+2023-06-21 20:56:55  ----  291 CHOS compounds. 
+2023-06-21 20:56:55  ----  Altamaha_SW48_000107-3_p08 contains 2817 molecules. 
+2023-06-21 20:56:55  ----  3 "Not Matched" molecules were removed. 
+2023-06-21 20:57:03  ----  1255 molecular transformation pathways were captured. 
+2023-06-21 20:57:04  ----  The analysis was completed: .\02.CSV_files\Altamaha_SW48_000107-3_p08CShOut.csv.
+ 
+2023-06-21 20:57:04  ----  Read file: .\02.CSV_files\Altamaha_SW48_000107-4_p08CShOut.csv 
+2023-06-21 20:57:04  ----  0 molecules containing C13 were deleted, retains 5770 molecules. 
+2023-06-21 20:57:04  ----  1824 duplicated molecules were removed, retains 3946 molecules. 
+2023-06-21 20:57:04  ----  0 CH compounds were removed, retains 3946 molecules. 
+2023-06-21 20:57:04  ----  827 chemically may non-existent molecules are removed, retains 3119 molecules. 
+2023-06-21 20:57:04  ----  14 molecules are filtered by custom conditions, retains 3105 molecules. 
+2023-06-21 20:57:05  ----  Outline taxonomy: 0 molecules are not grouped. 
+2023-06-21 20:57:05  ----  Specifics taxonomy: 1 molecules are not grouped. 
+2023-06-21 20:57:05  ----  MSCC taxonomy: 3057 molecules are not grouped. 
+2023-06-21 20:57:05  ----  CRAM taxonomy: 1633 molecules are grouped. 
+2023-06-21 20:57:05  ----  IOS taxonomy: 202 molecules are grouped. 
+2023-06-21 20:57:05  ----  1811 CHO compounds. 
+2023-06-21 20:57:05  ----  893 CHON compounds. 
+2023-06-21 20:57:05  ----  29 CHONS compounds. 
+2023-06-21 20:57:05  ----  372 CHOS compounds. 
+2023-06-21 20:57:05  ----  Altamaha_SW48_000107-4_p08 contains 3105 molecules. 
+2023-06-21 20:57:05  ----  1 "Not Matched" molecules were removed. 
+2023-06-21 20:57:14  ----  1255 molecular transformation pathways were captured. 
+2023-06-21 20:57:15  ----  The analysis was completed: .\02.CSV_files\Altamaha_SW48_000107-4_p08CShOut.csv.
+ 
