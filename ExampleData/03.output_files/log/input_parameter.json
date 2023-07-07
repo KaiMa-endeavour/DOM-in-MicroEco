@@ -1,0 +1,31 @@
+Input parameters: 
+{
+    "input_files": [
+        "02.CSV_files/Altamaha_PP48_000107-2_p08CShOut.csv",
+        "02.CSV_files/Altamaha_PP48_000107-3_p08CShOut.csv",
+        "02.CSV_files/Altamaha_PP48_000107-4_p08CShOut.csv",
+        "02.CSV_files/Altamaha_SW48_000107-2_p08CShOut.csv",
+        "02.CSV_files/Altamaha_SW48_000107-3_p08CShOut.csv",
+        "02.CSV_files/Altamaha_SW48_000107-4_p08CShOut.csv"
+    ],
+    "output_dir": "03.output_files/",
+    "table_fomat": "Fl_adv",
+    "adduct_json": null,
+    "table_headers": null,
+    "sample_names": null,
+    "skipCheck_atomNum": false,
+    "mass_range": [
+        200,
+        800
+    ],
+    "OC_range": [
+        0,
+        1.2
+    ],
+    "HC_range": [
+        0,
+        2.4
+    ],
+    "trans_db": "Transformation_List_Filtered.csv",
+    "error_term": 1e-05
+}
