@@ -1,0 +1,174 @@
+2023-07-08 19:15:47  ----  Read file: 02.CSV_files/Altamaha_PP48_000107-2_p08CShOut.csv 
+2023-07-08 19:15:47  ----  0 molecules containing C13 were deleted, retains 5702 molecules. 
+2023-07-08 19:15:47  ----  1803 duplicated molecules were removed, retains 3899 molecules. 
+2023-07-08 19:15:47  ----  0 CH compounds were removed, retains 3899 molecules. 
+2023-07-08 19:15:47  ----  742 chemically may non-existent molecules are removed, retains 3157 molecules. 
+2023-07-08 19:15:47  ----  The mass of CH2 is 14.01565 Da. 
+2023-07-08 19:15:47  ----  The mass of CO2 is 43.98983 Da. 
+2023-07-08 19:15:47  ----  The mass of H2 is 2.01565 Da. 
+2023-07-08 19:15:47  ----  The mass of O2 is 31.98983 Da. 
+2023-07-08 19:15:47  ----  The mass of OH is 17.00274 Da. 
+2023-07-08 19:15:47  ----  The mass of CHO is 29.00274 Da. 
+2023-07-08 19:15:47  ----  The mass of H2O is 18.01056 Da. 
+2023-07-08 19:15:47  ----  The mass of OCH2 is 30.01056 Da. 
+2023-07-08 19:15:47  ----  The mass of C6H4O is 92.02622 Da. 
+2023-07-08 19:15:47  ----  15 molecules are filtered by custom conditions, retains 3142 molecules. 
+2023-07-08 19:15:48  ----  Outline taxonomy: 0 molecules are not grouped. 
+2023-07-08 19:15:48  ----  Specifics taxonomy: 1 molecules are not grouped. 
+2023-07-08 19:15:48  ----  MSCC taxonomy: 3085 molecules are not grouped. 
+2023-07-08 19:15:48  ----  CRAM taxonomy: 1717 molecules are grouped. 
+2023-07-08 19:15:48  ----  IOS taxonomy: 211 molecules are grouped. 
+2023-07-08 19:15:48  ----  1921 CHO compounds. 
+2023-07-08 19:15:48  ----  877 CHON compounds. 
+2023-07-08 19:15:48  ----  26 CHONS compounds. 
+2023-07-08 19:15:48  ----  318 CHOS compounds. 
+2023-07-08 19:15:48  ----  Altamaha_PP48_000107-2_p08 contains 3142 molecules. 
+2023-07-08 19:15:48  ----  1 "Not Matched" molecules were removed. 
+2023-07-08 19:15:54  ----  949 molecular transformation pathways were captured. 
+2023-07-08 19:15:54  ----  The analysis was completed: 02.CSV_files/Altamaha_PP48_000107-2_p08CShOut.csv.
+ 
+2023-07-08 19:15:54  ----  Read file: 02.CSV_files/Altamaha_PP48_000107-3_p08CShOut.csv 
+2023-07-08 19:15:54  ----  0 molecules containing C13 were deleted, retains 5723 molecules. 
+2023-07-08 19:15:54  ----  1799 duplicated molecules were removed, retains 3924 molecules. 
+2023-07-08 19:15:54  ----  0 CH compounds were removed, retains 3924 molecules. 
+2023-07-08 19:15:54  ----  730 chemically may non-existent molecules are removed, retains 3194 molecules. 
+2023-07-08 19:15:54  ----  The mass of CH2 is 14.01565 Da. 
+2023-07-08 19:15:54  ----  The mass of CO2 is 43.98983 Da. 
+2023-07-08 19:15:54  ----  The mass of H2 is 2.01565 Da. 
+2023-07-08 19:15:54  ----  The mass of O2 is 31.98983 Da. 
+2023-07-08 19:15:54  ----  The mass of OH is 17.00274 Da. 
+2023-07-08 19:15:54  ----  The mass of CHO is 29.00274 Da. 
+2023-07-08 19:15:54  ----  The mass of H2O is 18.01056 Da. 
+2023-07-08 19:15:54  ----  The mass of OCH2 is 30.01056 Da. 
+2023-07-08 19:15:54  ----  The mass of C6H4O is 92.02622 Da. 
+2023-07-08 19:15:54  ----  14 molecules are filtered by custom conditions, retains 3180 molecules. 
+2023-07-08 19:15:55  ----  Outline taxonomy: 0 molecules are not grouped. 
+2023-07-08 19:15:55  ----  Specifics taxonomy: 1 molecules are not grouped. 
+2023-07-08 19:15:55  ----  MSCC taxonomy: 3089 molecules are not grouped. 
+2023-07-08 19:15:55  ----  CRAM taxonomy: 1773 molecules are grouped. 
+2023-07-08 19:15:55  ----  IOS taxonomy: 225 molecules are grouped. 
+2023-07-08 19:15:55  ----  1776 CHO compounds. 
+2023-07-08 19:15:55  ----  1008 CHON compounds. 
+2023-07-08 19:15:55  ----  38 CHONS compounds. 
+2023-07-08 19:15:55  ----  358 CHOS compounds. 
+2023-07-08 19:15:55  ----  Altamaha_PP48_000107-3_p08 contains 3180 molecules. 
+2023-07-08 19:15:55  ----  1 "Not Matched" molecules were removed. 
+2023-07-08 19:16:03  ----  949 molecular transformation pathways were captured. 
+2023-07-08 19:16:03  ----  The analysis was completed: 02.CSV_files/Altamaha_PP48_000107-3_p08CShOut.csv.
+ 
+2023-07-08 19:16:03  ----  Read file: 02.CSV_files/Altamaha_PP48_000107-4_p08CShOut.csv 
+2023-07-08 19:16:03  ----  0 molecules containing C13 were deleted, retains 5824 molecules. 
+2023-07-08 19:16:03  ----  1806 duplicated molecules were removed, retains 4018 molecules. 
+2023-07-08 19:16:03  ----  0 CH compounds were removed, retains 4018 molecules. 
+2023-07-08 19:16:03  ----  738 chemically may non-existent molecules are removed, retains 3280 molecules. 
+2023-07-08 19:16:03  ----  The mass of CH2 is 14.01565 Da. 
+2023-07-08 19:16:03  ----  The mass of CO2 is 43.98983 Da. 
+2023-07-08 19:16:03  ----  The mass of H2 is 2.01565 Da. 
+2023-07-08 19:16:03  ----  The mass of O2 is 31.98983 Da. 
+2023-07-08 19:16:03  ----  The mass of OH is 17.00274 Da. 
+2023-07-08 19:16:03  ----  The mass of CHO is 29.00274 Da. 
+2023-07-08 19:16:03  ----  The mass of H2O is 18.01056 Da. 
+2023-07-08 19:16:03  ----  The mass of OCH2 is 30.01056 Da. 
+2023-07-08 19:16:03  ----  The mass of C6H4O is 92.02622 Da. 
+2023-07-08 19:16:03  ----  12 molecules are filtered by custom conditions, retains 3268 molecules. 
+2023-07-08 19:16:04  ----  Outline taxonomy: 0 molecules are not grouped. 
+2023-07-08 19:16:04  ----  Specifics taxonomy: 1 molecules are not grouped. 
+2023-07-08 19:16:04  ----  MSCC taxonomy: 3194 molecules are not grouped. 
+2023-07-08 19:16:04  ----  CRAM taxonomy: 1819 molecules are grouped. 
+2023-07-08 19:16:04  ----  IOS taxonomy: 222 molecules are grouped. 
+2023-07-08 19:16:04  ----  1917 CHO compounds. 
+2023-07-08 19:16:04  ----  932 CHON compounds. 
+2023-07-08 19:16:04  ----  31 CHONS compounds. 
+2023-07-08 19:16:04  ----  388 CHOS compounds. 
+2023-07-08 19:16:04  ----  Altamaha_PP48_000107-4_p08 contains 3268 molecules. 
+2023-07-08 19:16:04  ----  1 "Not Matched" molecules were removed. 
+2023-07-08 19:16:11  ----  949 molecular transformation pathways were captured. 
+2023-07-08 19:16:12  ----  The analysis was completed: 02.CSV_files/Altamaha_PP48_000107-4_p08CShOut.csv.
+ 
+2023-07-08 19:16:12  ----  Read file: 02.CSV_files/Altamaha_SW48_000107-2_p08CShOut.csv 
+2023-07-08 19:16:12  ----  0 molecules containing C13 were deleted, retains 5363 molecules. 
+2023-07-08 19:16:12  ----  1736 duplicated molecules were removed, retains 3627 molecules. 
+2023-07-08 19:16:12  ----  0 CH compounds were removed, retains 3627 molecules. 
+2023-07-08 19:16:12  ----  693 chemically may non-existent molecules are removed, retains 2934 molecules. 
+2023-07-08 19:16:12  ----  The mass of CH2 is 14.01565 Da. 
+2023-07-08 19:16:12  ----  The mass of CO2 is 43.98983 Da. 
+2023-07-08 19:16:12  ----  The mass of H2 is 2.01565 Da. 
+2023-07-08 19:16:12  ----  The mass of O2 is 31.98983 Da. 
+2023-07-08 19:16:12  ----  The mass of OH is 17.00274 Da. 
+2023-07-08 19:16:12  ----  The mass of CHO is 29.00274 Da. 
+2023-07-08 19:16:12  ----  The mass of H2O is 18.01056 Da. 
+2023-07-08 19:16:12  ----  The mass of OCH2 is 30.01056 Da. 
+2023-07-08 19:16:12  ----  The mass of C6H4O is 92.02622 Da. 
+2023-07-08 19:16:12  ----  9 molecules are filtered by custom conditions, retains 2925 molecules. 
+2023-07-08 19:16:13  ----  Outline taxonomy: 0 molecules are not grouped. 
+2023-07-08 19:16:13  ----  Specifics taxonomy: 2 molecules are not grouped. 
+2023-07-08 19:16:13  ----  MSCC taxonomy: 2883 molecules are not grouped. 
+2023-07-08 19:16:13  ----  CRAM taxonomy: 1608 molecules are grouped. 
+2023-07-08 19:16:13  ----  IOS taxonomy: 204 molecules are grouped. 
+2023-07-08 19:16:13  ----  1804 CHO compounds. 
+2023-07-08 19:16:13  ----  796 CHON compounds. 
+2023-07-08 19:16:13  ----  34 CHONS compounds. 
+2023-07-08 19:16:13  ----  291 CHOS compounds. 
+2023-07-08 19:16:13  ----  Altamaha_SW48_000107-2_p08 contains 2925 molecules. 
+2023-07-08 19:16:13  ----  2 "Not Matched" molecules were removed. 
+2023-07-08 19:16:20  ----  949 molecular transformation pathways were captured. 
+2023-07-08 19:16:20  ----  The analysis was completed: 02.CSV_files/Altamaha_SW48_000107-2_p08CShOut.csv.
+ 
+2023-07-08 19:16:20  ----  Read file: 02.CSV_files/Altamaha_SW48_000107-3_p08CShOut.csv 
+2023-07-08 19:16:20  ----  0 molecules containing C13 were deleted, retains 5377 molecules. 
+2023-07-08 19:16:20  ----  1869 duplicated molecules were removed, retains 3508 molecules. 
+2023-07-08 19:16:20  ----  0 CH compounds were removed, retains 3508 molecules. 
+2023-07-08 19:16:20  ----  677 chemically may non-existent molecules are removed, retains 2831 molecules. 
+2023-07-08 19:16:20  ----  The mass of CH2 is 14.01565 Da. 
+2023-07-08 19:16:20  ----  The mass of CO2 is 43.98983 Da. 
+2023-07-08 19:16:20  ----  The mass of H2 is 2.01565 Da. 
+2023-07-08 19:16:20  ----  The mass of O2 is 31.98983 Da. 
+2023-07-08 19:16:20  ----  The mass of OH is 17.00274 Da. 
+2023-07-08 19:16:20  ----  The mass of CHO is 29.00274 Da. 
+2023-07-08 19:16:20  ----  The mass of H2O is 18.01056 Da. 
+2023-07-08 19:16:20  ----  The mass of OCH2 is 30.01056 Da. 
+2023-07-08 19:16:20  ----  The mass of C6H4O is 92.02622 Da. 
+2023-07-08 19:16:20  ----  14 molecules are filtered by custom conditions, retains 2817 molecules. 
+2023-07-08 19:16:21  ----  Outline taxonomy: 0 molecules are not grouped. 
+2023-07-08 19:16:21  ----  Specifics taxonomy: 3 molecules are not grouped. 
+2023-07-08 19:16:21  ----  MSCC taxonomy: 2776 molecules are not grouped. 
+2023-07-08 19:16:21  ----  CRAM taxonomy: 1546 molecules are grouped. 
+2023-07-08 19:16:21  ----  IOS taxonomy: 201 molecules are grouped. 
+2023-07-08 19:16:21  ----  1744 CHO compounds. 
+2023-07-08 19:16:21  ----  766 CHON compounds. 
+2023-07-08 19:16:21  ----  16 CHONS compounds. 
+2023-07-08 19:16:21  ----  291 CHOS compounds. 
+2023-07-08 19:16:21  ----  Altamaha_SW48_000107-3_p08 contains 2817 molecules. 
+2023-07-08 19:16:21  ----  3 "Not Matched" molecules were removed. 
+2023-07-08 19:16:27  ----  949 molecular transformation pathways were captured. 
+2023-07-08 19:16:27  ----  The analysis was completed: 02.CSV_files/Altamaha_SW48_000107-3_p08CShOut.csv.
+ 
+2023-07-08 19:16:27  ----  Read file: 02.CSV_files/Altamaha_SW48_000107-4_p08CShOut.csv 
+2023-07-08 19:16:27  ----  0 molecules containing C13 were deleted, retains 5770 molecules. 
+2023-07-08 19:16:27  ----  1824 duplicated molecules were removed, retains 3946 molecules. 
+2023-07-08 19:16:27  ----  0 CH compounds were removed, retains 3946 molecules. 
+2023-07-08 19:16:27  ----  827 chemically may non-existent molecules are removed, retains 3119 molecules. 
+2023-07-08 19:16:27  ----  The mass of CH2 is 14.01565 Da. 
+2023-07-08 19:16:27  ----  The mass of CO2 is 43.98983 Da. 
+2023-07-08 19:16:27  ----  The mass of H2 is 2.01565 Da. 
+2023-07-08 19:16:27  ----  The mass of O2 is 31.98983 Da. 
+2023-07-08 19:16:27  ----  The mass of OH is 17.00274 Da. 
+2023-07-08 19:16:27  ----  The mass of CHO is 29.00274 Da. 
+2023-07-08 19:16:27  ----  The mass of H2O is 18.01056 Da. 
+2023-07-08 19:16:27  ----  The mass of OCH2 is 30.01056 Da. 
+2023-07-08 19:16:27  ----  The mass of C6H4O is 92.02622 Da. 
+2023-07-08 19:16:27  ----  14 molecules are filtered by custom conditions, retains 3105 molecules. 
+2023-07-08 19:16:28  ----  Outline taxonomy: 0 molecules are not grouped. 
+2023-07-08 19:16:28  ----  Specifics taxonomy: 1 molecules are not grouped. 
+2023-07-08 19:16:28  ----  MSCC taxonomy: 3057 molecules are not grouped. 
+2023-07-08 19:16:28  ----  CRAM taxonomy: 1633 molecules are grouped. 
+2023-07-08 19:16:28  ----  IOS taxonomy: 202 molecules are grouped. 
+2023-07-08 19:16:28  ----  1811 CHO compounds. 
+2023-07-08 19:16:28  ----  893 CHON compounds. 
+2023-07-08 19:16:28  ----  29 CHONS compounds. 
+2023-07-08 19:16:28  ----  372 CHOS compounds. 
+2023-07-08 19:16:28  ----  Altamaha_SW48_000107-4_p08 contains 3105 molecules. 
+2023-07-08 19:16:28  ----  1 "Not Matched" molecules were removed. 
+2023-07-08 19:16:33  ----  949 molecular transformation pathways were captured. 
+2023-07-08 19:16:33  ----  The analysis was completed: 02.CSV_files/Altamaha_SW48_000107-4_p08CShOut.csv.
+ 
