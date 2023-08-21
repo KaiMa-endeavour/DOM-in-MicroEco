@@ -18,9 +18,7 @@ VPA_dbmem <- function(comm, env, geo, climate = NULL, for_sel = T, alpha = 0.05,
   
   dist_comm <- vegdist(comm, method = "bray") %>% as.matrix()
   if (for_sel) {
-    
     (env_fwd <- forward.sel(dist_comm, env, alpha = alpha, nperm = permutations))
-    
     Env_se <- env[ ,c(sort(env_fwd[ , 2])), drop = F]
   } else {
     Env_se <- env
@@ -32,9 +30,7 @@ VPA_dbmem <- function(comm, env, geo, climate = NULL, for_sel = T, alpha = 0.05,
   if (!is.null(climate)) {
     climate <- as.data.frame(climate)
     if (for_sel) {
-      
       (cli_fwd <- forward.sel(dist_comm, climate, alpha = alpha, nperm = permutations))
-      
       Cli_se <- climate[ ,c(sort(cli_fwd[ , 2])), drop = F]
     } else {
       Cli_se <- climate
@@ -44,7 +40,6 @@ VPA_dbmem <- function(comm, env, geo, climate = NULL, for_sel = T, alpha = 0.05,
     Cli_P <- anova(PCsign_cap, permutations = permutations)[[4]][1]
   }
   
-  
   if (Lon_Lat) {
     dbmem <- distm(geo, fun = distHaversine) %>% as.dist() %>% dbmem() 
   } else {
@@ -52,21 +47,17 @@ VPA_dbmem <- function(comm, env, geo, climate = NULL, for_sel = T, alpha = 0.05,
   }
   
   if (for_sel) {
-    # Forward selection of the dbmem variables
     (pc_fwd <- forward.sel(dist_comm, dbmem, alpha = alpha, nperm = permutations))
-    # Write significant dbmem in a new object
     Geo_se <- dbmem[ ,c(sort(pc_fwd[ ,2])), drop = F]
   } else {
     Geo_se <- dbmem
   }
-  
-  # CAP with signif. dbmem
+
   PCsign_cap <- capscale(dist_comm~., data = Geo_se, add = T)
   Geo_P <- anova(PCsign_cap, permutations = permutations)[[4]][1]
   
   
   if (is.null(climate)) {
-    ##variation partitioning
     Var_mod <- varpart(dist_comm, Env_se, Geo_se)
     Env_R2 <- Var_mod[1]$part[[2]][1, 3]
     Geo_R2 <- Var_mod[1]$part[[2]][2, 3]
