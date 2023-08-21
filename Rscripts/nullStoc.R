@@ -141,7 +141,7 @@ nullStoc <- function(comm, null_model, sp_freq = "fix", samp_rich = "fix", dist_
   comm <- as.matrix(comm)
   comm <- comm[rowSums(comm) > 0, ]
   comm <- comm[, colSums(comm) > 0]
-
+  
   # make_null:
   if (nworker > 1) {
     require(parallel)
@@ -152,6 +152,7 @@ nullStoc <- function(comm, null_model, sp_freq = "fix", samp_rich = "fix", dist_
     cat(paste("Now parallel computation randomization. Begin at ", date(), ". Please wait ...", sep = ""), "\n")
     cl <- makeCluster(nworker, type = "PSOCK")
     registerDoParallel(cl)
+    clusterExport(cl, 'nullModel')
     per_dis_l <- foreach(1:reps) %dopar% nullModel(comm = comm, null_model = null_model, sp_freq = sp_freq, samp_rich = samp_rich, output_nullcomm = F, dist_method = dist_method)
     stopCluster(cl)
   } else {
