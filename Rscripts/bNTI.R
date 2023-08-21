@@ -1,7 +1,7 @@
 # @Project: DOM-in-MicroEco
 # @File: bNTI.R
 # @Author: Kai Ma
-# Date: 18/7/2021
+# Date: 18/07/2021
 
 
 bNTI <- function(comm, tree, nworker = 4, reps = 1000, outgroup = NULL, output_path = NULL, abundance.weighted = T) {
