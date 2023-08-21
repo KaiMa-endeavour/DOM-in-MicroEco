@@ -13,6 +13,12 @@ se <- function(x, na.rm = F) {
   stats::sd(x, na.rm) / sqrt(length(x) - sum(is.na(x)))
 }
 
+rank_abun <- function(abun_vet) {
+  rep(names(table(log10(abun_vet))), table(log10(abun_vet))) %>%
+    rev() %>%
+    as.numeric()
+}
+
 fitsad_zipf <- function(x, N, trunc, start.value, upper = 20, ...) {
   dots <- list(...)
   if (any(x <= 0)) stop("All x must be positive integers")
@@ -46,6 +52,7 @@ fitsad_zipf <- function(x, N, trunc, start.value, upper = 20, ...) {
 SAD_models <- function(data) {
   require(sads)
   require(mobsim)
+  require(tidyfst)
   
   xx <- matrix(0, nrow(data), 4)
   rank_sample <- list()
