@@ -5,7 +5,7 @@
 @Time       :    2022/08/16 14:04:34
 '''
 
-normScale <- function(v, floor = 100, ceiling = NULL, multiple = NULL) {
+normScale <- function(v, floor = 100, ceiling = NULL, multiple = NULL, intFmt = FALSE) {
   vmax <- max(v[v > 0])
   vmin <- min(v[v > 0])
   if (is.null(ceiling)) {
@@ -18,12 +18,12 @@ normScale <- function(v, floor = 100, ceiling = NULL, multiple = NULL) {
     xx <- (ceiling - floor) * (v[v > 0] - vmin) / (vmax - vmin) + floor
   }
   v[v > 0] <- xx
-  return(round(v, 0))
+  if (!intFmt) v else round(v, 0)
 }
 
-min_error <- function(dom, L_margin, R_margin, step, method = "bray") {
+min_error <- function(dom, L_margin, R_margin, step, method = "bray", floor = 100, ceiling = NULL) {
   error <- sapply(seq(L_margin, R_margin, step), function(k) {
-    dom_scaling <- t(apply(dom, 1, normScale, multiple = k))
+    dom_scaling <- t(apply(dom, 1, normScale, floor = floor, ceiling = ceiling, multiple = k))
     beta_dom <- vegan::vegdist(dom, method = method)
     beta <- vegan::vegdist(dom_scaling, method = method)
     abs(mean(beta_dom) - mean(beta))
