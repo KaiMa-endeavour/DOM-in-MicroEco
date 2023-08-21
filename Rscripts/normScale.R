@@ -1,9 +1,7 @@
-# --*-- encoding: utf-8 --*--
-'''
-@File       :    normScale.R
-@Author     :    Kai Ma
-@Time       :    2022/08/16 14:04:34
-'''
+# @Project: DOM-in-MicroEco
+# @File: normScale.R
+# @Author: Kai Ma
+# Date: 16/08/2022
 
 normScale <- function(v, floor = 100, ceiling = NULL, multiple = NULL, intFmt = FALSE) {
   vmax <- max(v[v > 0])
