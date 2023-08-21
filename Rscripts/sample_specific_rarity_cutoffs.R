@@ -1,9 +1,10 @@
-# The R function sample_specific_rarity_cutoffs.R from 
-# https://github.com/Jia-Xiu/rare_biosphere_assembly_2020/blob/master/sample_specific_rarity_cutoffs.R was improved in order to divide the occasional taxa.
-# Using sample-specific rarity cutoffs to define the rare and common biopsheres
-# Author: Xiu Jia
-# Reviser: Kai Ma
-# Date: 9-7-2022
+# @Project: DOM-in-MicroEco
+# @File: sample_specific_rarity_cutoffs.R
+# @Author: Xiu Jia
+# @Reviser: Kai Ma
+# Date: 09/07/2022
+# The R function from https://github.com/Jia-Xiu/rare_biosphere_assembly_2020/blob/master/sample_specific_rarity_cutoffs.R was improved in order to divide the occasional taxa.
+
 
 library(vegan)
 
