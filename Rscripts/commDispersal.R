@@ -6,6 +6,10 @@
 
 commDispersal <- function(comm, d, nworker = 4) {
   # A community of metacommunities: exploring patterns in species distributions across large geographical areas
+  require(parallel)
+  require(foreach)
+  require(doParallel)
+  
   comm[comm > 0] <- 1
   d <- d[match(rownames(comm), rownames(d)), match(rownames(comm), colnames(d))]
   xx <- matrix(NA, nrow(comm), nrow(comm))
