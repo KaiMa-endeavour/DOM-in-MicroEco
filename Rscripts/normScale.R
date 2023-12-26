@@ -2,6 +2,7 @@
 # @File: normScale.R
 # @Author: Kai Ma
 # Date: 16/08/2022
+library(tidyfst)
 
 normScale <- function(v, floor = 100, ceiling = NULL, multiple = NULL, intFmt = FALSE) {
   vmax <- max(v[v > 0])
@@ -20,9 +21,9 @@ normScale <- function(v, floor = 100, ceiling = NULL, multiple = NULL, intFmt = 
 }
 
 min_error <- function(dom, L_margin, R_margin, step, method = "bray", floor = 100, ceiling = NULL) {
+  beta_dom <- vegan::vegdist(dom, method = method)
   error <- sapply(seq(L_margin, R_margin, step), function(k) {
     dom_scaling <- t(apply(dom, 1, normScale, floor = floor, ceiling = ceiling, multiple = k))
-    beta_dom <- vegan::vegdist(dom, method = method)
     beta <- vegan::vegdist(dom_scaling, method = method)
     abs(mean(beta_dom) - mean(beta))
   }) %>% as.vector()
