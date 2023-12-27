@@ -58,7 +58,7 @@ alpha_dom <- lapply(c(2**seq(5, 100)[2**seq(5, 100) < max(rowSums(data[, -1]))],
   alphaDiversity(data_sub[, -1], data_sub$Samples, method = c('Richness', 'Pielou')) %>% 
     cbind(Dominance = apply(data_sub[, -1], 1, function(a) max(a)), 
           Rarity = apply(data_sub[, -1], 1, rarity), 
-          N = p, 
+          Sample_size = p, 
           S = apply(data_sub[, -1], 1, function(a) length(a[a>0])))
 }) %>% rbindlist() %>% mutate_dt(group = 'DOM')
 
@@ -68,7 +68,7 @@ alpha_bac <- lapply(c(2**seq(5, 100)[2**seq(5, 100) < max(rowSums(data[, -1]))],
   alphaDiversity(data_sub[, -1], data_sub$Samples, method = c('Richness', 'Pielou')) %>% 
     cbind(Dominance = apply(data_sub[, -1], 1, function(a) max(a)), 
           Rarity = apply(data_sub[, -1], 1, rarity), 
-          N = p, 
+          Sample_size = p, 
           S = apply(data_sub[, -1], 1, function(a) length(a[a>0])))
 }) %>% rbindlist() %>% mutate_dt(group = 'Bacteria')
 
@@ -78,7 +78,7 @@ alpha_fun <- lapply(c(2**seq(5, 100)[2**seq(5, 100) < max(rowSums(data[, -1]))],
   alphaDiversity(data_sub[, -1], data_sub$Samples, method = c('Richness', 'Pielou')) %>% 
     cbind(Dominance = apply(data_sub[, -1], 1, function(a) max(a)), 
           Rarity = apply(data_sub[, -1], 1, rarity), 
-          N = p, 
+          Sample_size = p, 
           S = apply(data_sub[, -1], 1, function(a) length(a[a>0])))
 }) %>% rbindlist() %>% mutate_dt(group = 'Fungi')
 
