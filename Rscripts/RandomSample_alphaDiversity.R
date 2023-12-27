@@ -1,5 +1,17 @@
 library(tidyfst)
 
+dominance <- function(a, rel_D = F) {
+  if (!rel_D) {
+    return(max(a) / sum(a))
+  } else {
+    return(max(a / sum(a)))
+  }
+}
+
+rarity <- function(a) {
+  as <- unlist(a[a > 0])
+  mean(((as - mean(as)) / stats::sd(as))^3)
+}
 
 alphaDiversity <- function(comm, sample_names, methods = c("Richness", "Chao1", "ACE", "Shannon", "Simpson", "Pielou", "goods_coverage"), suffix = NULL, tree = NULL, base = exp(1)) {
   stopifnot(methods %in% c("Richness", "Chao1", "ACE", "Shannon", "Simpson", "Pielou", "goods_coverage"))
@@ -69,6 +81,5 @@ alpha_fun <- lapply(c(2**seq(5, 100)[2**seq(5, 100) < max(rowSums(data[, -1]))],
           N = p, 
           S = apply(data_sub[, -1], 1, function(a) length(a[a>0])))
 }) %>% rbindlist() %>% mutate_dt(group = 'Fungi')
-
 
 alpha <- rbind(alpha_dom, alpha_bac, alpha_fun)
