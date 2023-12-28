@@ -1,3 +1,8 @@
+# @Project: DOM-in-MicroEco
+# @File: RandomSample_alphaDiversity.R
+# @Author: Kai Ma
+# Date: 22/05/2022
+
 library(tidyfst)
 
 dominance <- function(a, rel_D = F) {
