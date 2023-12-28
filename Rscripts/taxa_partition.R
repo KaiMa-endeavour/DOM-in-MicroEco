@@ -22,6 +22,7 @@ taxa_partition <- function(comm, mode = "rarity", relab_abundant = 0.1, relab_ra
       occasional <- comm[, setdiff(colnames(comm_relab), c(colnames(abundant), colnames(rare)))]
     }
     if (mode == "rarity") {
+      # https://github.com/Jia-Xiu/rare_biosphere_assembly_2020/blob/master/sample_specific_rarity_cutoffs.R
       Chao <- as.data.frame(t(estimateR(comm)))
       Chao$slope <- Chao$S.obs / Chao$S.chao1
       cutoffs <- matrix(NA, nrow(comm), 3)
