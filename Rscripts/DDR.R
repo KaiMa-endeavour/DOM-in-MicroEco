@@ -1,5 +1,5 @@
 # @Project: DOM-in-MicroEco
-# @File: taxa_partition.R
+# @File: DDR.R
 # @Author: Kai Ma
 # Date: 24/04/2022
 
