@@ -79,6 +79,8 @@ nullModel <- function(comm, null_model, sp_freq, samp_rich, output_nullcomm = F,
     null_comm <- null_comm[, match(colnames(comm), colnames(null_comm))]
     null_comm <- null_comm[match(rownames(comm), rownames(null_comm)), ]
   }
+  colnames(null_comm) <- colnames(comm)
+  rownames(null_comm) <- rownames(comm)
   null_dist <- vegan::vegdist(null_comm, method = dist_method)
   if (!output_nullcomm) {
     return(null_dist)
@@ -128,7 +130,8 @@ summStoc <- function(ob_dis, per_dis_l, stats = c("RC", "SES", "ST", "MST", "NST
   }
   
   if ("NST" %in% stats) {
-    NST_Radio <- NST::cNST(ob_dis, per_dis_l, group = data.frame(rep(1, nrow(as.matrix(ob_sim)))))$index.pair.grp$NST.ij.dis
+    group <- data.frame(rep(1, nrow(as.matrix(ob_sim)))); rownames(group) <- rownames(as.matrix(ob_sim))
+    NST_Radio <- NST::cNST(ob_dis, per_dis_l, group = group)$index.pair.grp$NST.ij.dis
   }
   xx <- data.frame(RC_Radio, SES_Radio, ST_Radio, MST_Radio, NST_Radio)[, match(stats, c("RC", "SES", "ST", "MST", "NST")), drop = F]
   names(xx) <- stats
@@ -136,7 +139,7 @@ summStoc <- function(ob_dis, per_dis_l, stats = c("RC", "SES", "ST", "MST", "NST
 }
 
 
-nullStoc <- function(comm, null_model, sp_freq = "fix", samp_rich = "fix", dist_method = "bray", reps = 1000, nworker = 1, stats = c("RC", "SES", "ST", "MST", "NST")) {
+nullStoc <- function(comm, null_model, sp_freq = "fix", samp_rich = "fix", dist_method = "bray", reps = 1000, nworker = 10, stats = c("RC", "SES", "ST", "MST", "NST")) {
   require(tidyfst)
   comm <- as.matrix(comm)
   comm <- comm[rowSums(comm) > 0, ]
