@@ -6,5 +6,6 @@ Here, [FtmsAnalysis](https://github.com/KaiMa-endeavour/DOM-in-MicroEco/releases
 
 ## References
 
-Ma, K., Li, Y., Liu, X., Song, W., Zhou, J., Gong, X., Wang, M., Li, C., Liu, J., Tu, Q., 2023. Bacteria rather than fungi mediate the chemodiversity of dissolved organic matter in a mudflat intertidal zone. Science of The Total Environment 893, 164835. https://doi.org/10.1016/j.scitotenv.2023.164835
+Ma, K., Li, Y., Song, W., Zhou, J., Liu, X., Wang, M., Gong, X., Wang, L., Tu, Q., 2024. Disentangling drivers of mudflat intertidal DOM chemodiversity using ecological models. Nat. Commun. 15, 6620. https://doi.org/10.1038/s41467-024-50841-9
 
+Ma, K., Li, Y., Liu, X., Song, W., Zhou, J., Gong, X., Wang, M., Li, C., Liu, J., Tu, Q., 2023. Bacteria rather than fungi mediate the chemodiversity of dissolved organic matter in a mudflat intertidal zone. Science of The Total Environment 893, 164835. https://doi.org/10.1016/j.scitotenv.2023.164835
