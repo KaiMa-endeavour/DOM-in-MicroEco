@@ -3,7 +3,10 @@
 # @Author: Kai Ma
 # Date: 24/04/2022
 
-
+# This script uses taxa_partition() and alpha_diversity() from the MicroEcoTk R package.
+#   install.packages("remotes")
+#   remotes::install_github("KaiMa-endeavour/MicroEcoTk")
+library(MicroEcoTk)
 library(tidyfst)
 
 dom <- fread('./DOM_scaled_rarefied_int_tab.csv') %>% arrange_dt(Samples)
@@ -24,7 +27,7 @@ lat_div <- function(data, sample_names) {
                  Latitude = rep(geo$Latitude[r], sum(grepl(geo$Station[r], sample_names[sample_id])))      )
     }) %>% rbindlist() %>% arrange_dt(station)
     
-    data.table(alphaDiversity(comm = AOR[[i]], sample_names = sample_names[sample_id], method = c('Richness', 'Chao1')), Taxa = c('Abundant', 'Occasional', 'Rare', 'Whole')[i], lat = geo_exp$Latitude)
+    data.table(alpha_diversity(comm = AOR[[i]], sample_names = sample_names[sample_id], methods = c('Richness', 'Chao1')), Taxa = c('Abundant', 'Occasional', 'Rare', 'Whole')[i], lat = geo_exp$Latitude)
   }) %>% rbindlist()
   res
 }

@@ -3,6 +3,10 @@
 # @Author: Kai Ma
 # Date: 29/04/2022
 
+# This script uses normScale() from the MicroEcoTk R package.
+#   install.packages("remotes")
+#   remotes::install_github("KaiMa-endeavour/MicroEcoTk")
+library(MicroEcoTk)
 
 keyMole <- function(dom_t, temporal_or_spatial = 'spatial', prefix) {
   stopifnot(temporal_or_spatial %in% c('temporal', 'spatial'))

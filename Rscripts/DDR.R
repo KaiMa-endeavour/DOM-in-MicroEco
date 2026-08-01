@@ -3,7 +3,10 @@
 # @Author: Kai Ma
 # Date: 24/04/2022
 
-
+# This script uses taxa_partition() and rel_ab() from the MicroEcoTk R package.
+#   install.packages("remotes")
+#   remotes::install_github("KaiMa-endeavour/MicroEcoTk")
+library(MicroEcoTk)
 library(tidyfst)
 
 dom <- fread('./DOM_scaled_rarefied_int_tab.csv') %>% arrange_dt(Samples)
